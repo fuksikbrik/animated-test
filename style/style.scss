@@ -17,13 +17,11 @@ img{
 }
 
 .loader-example {
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    display: block;
-    height: 90vmin;
-    width: 90vmin;
+    
 }
 
 .gear-A {
@@ -33,3 +31,230 @@ img{
 .gear-B {
     animation: rotate-gear 10000ms linear infinite;
 }
+.test{
+    display: flex;
+    justify-content: center;
+    
+    svg{
+        width: 50%;
+    }
+}
+.h1{
+   
+    animation:  test4 4s infinite;
+}
+.h2{
+ 
+    animation:  test3 4s infinite;
+}
+.h3{
+   
+    animation:  test2 4s infinite;
+}
+.h4{
+   
+    animation:  test1 4s infinite;
+}
+@keyframes test1 {
+   0%{
+    stroke: red;
+   }
+   25%{
+    stroke: yellow;
+   }
+   50%{
+    stroke: blue;
+   }
+   75%{
+    stroke: green;
+   }
+   100%{
+    stroke: red;
+   }
+}
+
+@keyframes test2 {
+    0%{
+     stroke: green;
+    }
+    25%{
+     stroke: red;
+   
+    }
+    50%{
+        stroke: yellow;
+    }
+    75%{
+        stroke: blue;
+    }
+    100%{
+        stroke: green;
+    }
+ }
+
+ @keyframes test3 {
+    0%{
+        stroke: blue;
+    }
+    25%{
+        stroke: green;
+    }
+    50%{
+     stroke: red;
+    }
+    75%{
+        stroke: yellow;
+    }
+    100%{
+        stroke: blue;
+    }
+ }
+
+ @keyframes test4 {
+    0%{
+     stroke: yellow;
+    }
+    25%{
+        stroke: blue;
+    }
+    50%{
+        stroke: green;
+    }
+    75%{
+     stroke: red;
+    }
+    100%{
+        stroke: yellow;
+    }
+ }
+ .flower{
+    display: flex;
+    justify-content: center;
+    svg{
+        width: 50%;
+    }
+    .flower-1-line{
+        animation: flower1 4s infinite;
+        
+    }
+    .flower-2-line{
+        animation: flower2 4s infinite;
+    }
+    .flower-3-line{
+        animation: flower3 4s infinite;
+    }
+    .flower-4-line{
+        animation: flower4 4s infinite;
+    }
+    .flower-5-line{
+        animation: flower5 4s infinite;
+    }
+    .flower-end{
+        animation: flowerEnd 4s infinite;
+    }
+    
+ }
+
+ @keyframes flower1 {
+    0%{
+        fill: red;
+    }
+    25%{
+        fill: blue;
+    }
+    50%{
+        fill: yellow;
+    }
+    75%{
+        fill: green;
+    }
+    100%{
+        fill: red;
+    }
+ }
+ @keyframes flower2 {
+    0%{
+        fill: purple ;
+    }
+    25%{
+        fill: orange;
+    }
+    50%{
+        fill: rgb(85, 45, 45);
+    }
+    75%{
+        fill: blue;
+    }
+    100%{
+        fill: purple;
+    }
+ }
+ @keyframes flower3 {
+    0%{
+        fill: pink ;
+    }
+    25%{
+        fill: green;
+    }
+    50%{
+        fill: rgb(78, 78, 78);
+    }
+    75%{
+        fill: yellow;
+    }
+    100%{
+        fill: pink;
+    }
+ }
+ @keyframes flower4 {
+    0%{
+        fill: purple ;
+    }
+    25%{
+        fill: orange;
+    }
+    50%{
+        fill: rgb(85, 45, 45);
+    }
+    75%{
+        fill: blue;
+    }
+    100%{
+        fill: purple;
+    }
+ }
+
+ @keyframes flower5 {
+    0%{
+        fill: red;
+    }
+    25%{
+        fill: blue;
+    }
+    50%{
+        fill: yellow;
+    }
+    75%{
+        fill: green;
+    }
+    100%{
+        fill: red;
+    }
+ }
+ @keyframes flowerEnd {
+    0%{
+        fill: yellow;
+    }
+    25%{
+        fill: pink;
+    }
+    50%{
+        fill: blue;
+    }
+    75%{
+        fill: orange;
+    }
+    100%{
+        fill: yellow;
+    }
+ }
