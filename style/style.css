@@ -443,4 +443,197 @@ img {
   100% {
     fill: yellow;
   }
+}
+.testing-3 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.testing-3 .boll-1 {
+  -webkit-animation: boll1 2s infinite;
+          animation: boll1 2s infinite;
+}
+.testing-3 .boll-2 {
+  -webkit-animation: boll2 2s infinite;
+          animation: boll2 2s infinite;
+}
+.testing-3 .boll-3 {
+  -webkit-animation: boll3 2s infinite;
+          animation: boll3 2s infinite;
+}
+.testing-3 .boll-4 {
+  -webkit-animation: boll4 2s infinite;
+          animation: boll4 2s infinite;
+}
+.testing-3 .boll-5 {
+  -webkit-animation: boll1 2s infinite;
+          animation: boll1 2s infinite;
+}
+.testing-3 .star {
+  -webkit-animation: boll3 4s infinite;
+          animation: boll3 4s infinite;
+}
+.testing-3 .wood {
+  -webkit-animation: wood 3s infinite;
+          animation: wood 3s infinite;
+}
+
+@-webkit-keyframes wood {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes wood {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes boll1 {
+  0% {
+    fill: purple;
+  }
+  25% {
+    fill: red;
+  }
+  50% {
+    fill: green;
+  }
+  75% {
+    fill: blue;
+  }
+  100% {
+    fill: purple;
+  }
+}
+@keyframes boll1 {
+  0% {
+    fill: purple;
+  }
+  25% {
+    fill: red;
+  }
+  50% {
+    fill: green;
+  }
+  75% {
+    fill: blue;
+  }
+  100% {
+    fill: purple;
+  }
+}
+@-webkit-keyframes boll2 {
+  0% {
+    fill: blue;
+  }
+  25% {
+    fill: purple;
+  }
+  50% {
+    fill: red;
+  }
+  75% {
+    fill: green;
+  }
+  100% {
+    fill: blue;
+  }
+}
+@keyframes boll2 {
+  0% {
+    fill: blue;
+  }
+  25% {
+    fill: purple;
+  }
+  50% {
+    fill: red;
+  }
+  75% {
+    fill: green;
+  }
+  100% {
+    fill: blue;
+  }
+}
+@-webkit-keyframes boll3 {
+  0% {
+    fill: green;
+  }
+  25% {
+    fill: blue;
+  }
+  50% {
+    fill: purple;
+  }
+  75% {
+    fill: red;
+  }
+  100% {
+    fill: green;
+  }
+}
+@keyframes boll3 {
+  0% {
+    fill: green;
+  }
+  25% {
+    fill: blue;
+  }
+  50% {
+    fill: purple;
+  }
+  75% {
+    fill: red;
+  }
+  100% {
+    fill: green;
+  }
+}
+@-webkit-keyframes boll4 {
+  0% {
+    fill: red;
+  }
+  25% {
+    fill: green;
+  }
+  50% {
+    fill: blue;
+  }
+  75% {
+    fill: purple;
+  }
+  100% {
+    fill: red;
+  }
+}
+@keyframes boll4 {
+  0% {
+    fill: red;
+  }
+  25% {
+    fill: green;
+  }
+  50% {
+    fill: blue;
+  }
+  75% {
+    fill: purple;
+  }
+  100% {
+    fill: red;
+  }
 }/*# sourceMappingURL=style.css.map */
