@@ -447,7 +447,7 @@ img {
 .testing-3 {
   display: flex;
   justify-content: center;
-  background-color: black;
+  align-items: center;
 }
 .testing-3 .boll-1 {
   -webkit-animation: boll1 2s infinite;
@@ -480,25 +480,25 @@ img {
 
 @-webkit-keyframes wood {
   0% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   50% {
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
   }
   100% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
 }
 
 @keyframes wood {
   0% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   50% {
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
   }
   100% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
 }
 @-webkit-keyframes boll1 {
