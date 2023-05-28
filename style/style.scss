@@ -366,5 +366,33 @@ img{
         fill: red;
     }
  }
+ .line{
+    animation: line 3s infinite;
+ }
+ @keyframes line {
+    0%{
+        transform: rotate(-0.5deg);
+    }
+    50%{
+        transform: rotate(0.5deg);
+    }
+    100%{
+        transform: rotate(-0.5deg);
+    }
+ }
+ .boll-error{
+    animation: bollError 3s infinite;
+ }
+ @keyframes bollError{
+    0%{
+        transform: rotate(-0.50deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-0.5deg);
+    }
+ }
  
 

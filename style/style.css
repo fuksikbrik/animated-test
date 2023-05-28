@@ -636,4 +636,60 @@ img {
   100% {
     fill: red;
   }
+}
+.line {
+  -webkit-animation: line 3s infinite;
+          animation: line 3s infinite;
+}
+
+@-webkit-keyframes line {
+  0% {
+    transform: rotate(-0.5deg);
+  }
+  50% {
+    transform: rotate(0.5deg);
+  }
+  100% {
+    transform: rotate(-0.5deg);
+  }
+}
+
+@keyframes line {
+  0% {
+    transform: rotate(-0.5deg);
+  }
+  50% {
+    transform: rotate(0.5deg);
+  }
+  100% {
+    transform: rotate(-0.5deg);
+  }
+}
+.boll-error {
+  -webkit-animation: bollError 3s infinite;
+          animation: bollError 3s infinite;
+}
+
+@-webkit-keyframes bollError {
+  0% {
+    transform: rotate(-0.5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.5deg);
+  }
+}
+
+@keyframes bollError {
+  0% {
+    transform: rotate(-0.5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.5deg);
+  }
 }/*# sourceMappingURL=style.css.map */
